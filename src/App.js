@@ -4,7 +4,7 @@ import { observer, inject } from "mobx-react";
 import "./index.css";
 import "semantic-ui-css/semantic.min.css";
 
-const API_URL = "http://api.zippopotam.us/us/";
+const API_URL = "https://api.zippopotam.us/us/";
 const TIMEOUT = 3000;
 const MIN_LENGHT_ZIPCODE = 5;
 const CITY_EXIST = "City was already added";
